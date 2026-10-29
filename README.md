@@ -1,6 +1,6 @@
 # A little something
 
-A responsive static website. No framework, build step, external font requests, or package installation is required. All fonts and the generated hero image are included locally.
+A responsive static website. No framework, build step, external font requests, or package installation is required. All fonts (subset WOFF2) and the generated hero image are included locally.
 
 ## Personalize
 
@@ -18,7 +18,7 @@ The page asks search engines not to index it, but this does not restrict who can
 - `style.css`: responsive design and reduced-motion support
 - `script.js`: independent relationship/date response flows and clipboard fallback
 - `personalize.js`: editable personal details
-- `assets/`: self-hosted fonts and generated envelope photograph
+- `assets/`: self-hosted fonts and generated envelope photograph (WebP with JPEG fallback)
 - `vercel.json`: hosting settings
 
 Typography: Cormorant Garamond, Manrope and Caveat from Google Fonts under the SIL Open Font License. Licenses included in assets/fonts. Hero photograph generated with OpenAI image generation for this project.
